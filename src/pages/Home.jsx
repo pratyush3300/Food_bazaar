@@ -14,15 +14,15 @@ const Home = () => {
       {
         id: 1,
         name: "Margherita Pizza",
-        price: 469,
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=300&h=200&fit=crop",
+        price: 12.59,
+        image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: "Pizza",
         rating: 4.8
       },
       {
         id: 2,
         name: "Classic Burger",
-        price: 89,
+        price: 8.59,
         image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&h=200&fit=crop",
         category: "Burgers",
         rating: 4.6
@@ -30,7 +30,7 @@ const Home = () => {
       {
         id: 3,
         name: "Fresh Fruit Bowl",
-        price: 139,
+        price: 11.6,
         image: "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=300&h=200&fit=crop",
         category: "Fruits",
         rating: 4.9
