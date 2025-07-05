@@ -67,7 +67,7 @@ const ProductDetail = () => {
           <h1 className="mb-3">{product.name}</h1>
           <Badge bg="secondary" className="mb-3">{product.category}</Badge>
           
-          <h3 className="text-success mb-3">${product.price}</h3>
+          <h3 className="text-success mb-3">{product.price}</h3>
           
           <p className="text-muted mb-4">{product.description}</p>
           
