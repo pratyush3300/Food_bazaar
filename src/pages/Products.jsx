@@ -19,7 +19,7 @@ const Products = () => {
       {
         id: 1,
         name: "Margherita Pizza",
-        price: 469,
+        price: 12.59,
         image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         category: "pizza",
         rating: 4.8,
@@ -28,7 +28,7 @@ const Products = () => {
       {
         id: 2,
         name: "Pepperoni Pizza",
-        price: 349,
+        price: 14.39,
         image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=300&h=200&fit=crop",
         category: "pizza",
         rating: 4.7,
@@ -37,7 +37,7 @@ const Products = () => {
       {
         id: 3,
         name: "Classic Burger",
-        price: 89,
+        price: 8.59,
         image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&h=200&fit=crop",
         category: "burgers",
         rating: 4.6,
@@ -46,7 +46,7 @@ const Products = () => {
       {
         id: 4,
         name: "Cheeseburger",
-        price: 99,
+        price: 9.98,
         image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=300&h=200&fit=crop",
         category: "burgers",
         rating: 4.5,
@@ -55,7 +55,7 @@ const Products = () => {
       {
         id: 5,
         name: "Fresh Fruit Bowl",
-        price: 139,
+        price: 11.6,
         image: "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=300&h=200&fit=crop",
         category: "fruits",
         rating: 4.9,
@@ -73,7 +73,7 @@ const Products = () => {
       {
         id: 7,
         name: "Chocolate Cake",
-        price: 125,
+        price: 8.63,
         image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=200&fit=crop",
         category: "desserts",
         rating: 4.9,
@@ -82,7 +82,7 @@ const Products = () => {
       {
         id: 8,
         name: "Cheesecake",
-        price: 79,
+        price: 5.29,
         image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=300&h=200&fit=crop",
         category: "desserts",
         rating: 4.8,
@@ -205,7 +205,7 @@ const Products = () => {
                     <div className="d-flex justify-content-between align-items-start mb-2">
                       <h6 className="fw-bold mb-0">
                         <Link 
-                          to={`/product/Rs{product.id}`} 
+                          to={`/product/${product.id}`} 
                           className="text-decoration-none text-dark"
                         >
                           {product.name}
