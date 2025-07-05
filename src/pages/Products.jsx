@@ -205,7 +205,7 @@ const Products = () => {
                     <div className="d-flex justify-content-between align-items-start mb-2">
                       <h6 className="fw-bold mb-0">
                         <Link 
-                          to={`/product/${product.id}`} 
+                          to={`/product/Rs{product.id}`} 
                           className="text-decoration-none text-dark"
                         >
                           {product.name}
