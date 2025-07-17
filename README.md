@@ -3,7 +3,7 @@
 ## Project info:
 Developed MapFood, a full-stack food discovery platform. Designed a user-friendly UI with interactive onboarding and responsive layout for smooth UX.
 
-**URL**: {https://internproject-mu.vercel.app/signup}
+**URL**: {https://internproject-mu.vercel.app/}
 
 
 **Use your preferred IDE**
