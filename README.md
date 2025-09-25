@@ -5,7 +5,6 @@ Developed MapFood, a full-stack food discovery platform. Designed a user-friendl
 
 **URL**: {https://internproject-mu.vercel.app/}
 
-
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes.
