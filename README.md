@@ -1,3 +1,5 @@
+Note: Currently, I'm working on this project to dive deep on implementation of real-time advance features and other functionalities.
+
 # Welcome to my project
 
 ## Project info:
